@@ -1,14 +1,17 @@
 // TestModule.java, created by Fabio Strozzi on Mar 27, 2011
-package eu.fabiostrozzi.guicejunit;
+package eu.fabiostrozzi.guicejunitrunner;
 
 import com.google.inject.AbstractModule;
+
+import eu.fabiostrozzi.guicejunitrunner.DummyComponent;
+import eu.fabiostrozzi.guicejunitrunner.IComponent;
 
 /**
  * A trivial Guice configuration.
  * 
  * @author Fabio Strozzi
  */
-public class ServicesTestModule extends AbstractModule {
+public class ComponentsTestModule extends AbstractModule {
 
     /*
      * (non-Javadoc)
@@ -17,7 +20,7 @@ public class ServicesTestModule extends AbstractModule {
      */
     @Override
     protected void configure() {
-        bind(IService.class).to(DummyService.class);
+        bind(IComponent.class).to(DummyComponent.class);
     }
 
 }

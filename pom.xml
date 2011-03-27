@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>eu.fabiostrozzi</groupId>
-	<artifactId>guice-junit</artifactId>
+	<artifactId>guice-junit-runner</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>guice-junit</name>
+	<name>Guice JUnit Runner</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>

@@ -1,5 +1,5 @@
 // DummyService.java, created by Fabio Strozzi on Mar 27, 2011
-package eu.fabiostrozzi.guicejunit;
+package eu.fabiostrozzi.guicejunitrunner;
 
 import com.google.inject.Inject;
 
@@ -23,7 +23,7 @@ public class DummyService implements IService {
     /*
      * (non-Javadoc)
      * 
-     * @see eu.fabiostrozzi.guicejunit.IService#doSomething()
+     * @see eu.fabiostrozzi.guicejunitrunner.IService#doSomething()
      */
     public String doSomething() {
         return component.compute();

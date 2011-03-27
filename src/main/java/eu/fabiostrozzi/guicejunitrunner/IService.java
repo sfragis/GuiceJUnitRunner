@@ -1,5 +1,5 @@
 // ISomeService.java, created by Fabio Strozzi on Mar 27, 2011
-package eu.fabiostrozzi.guicejunit;
+package eu.fabiostrozzi.guicejunitrunner;
 
 /**
  * @author Fabio Strozzi

@@ -1,5 +1,5 @@
 // ServiceTest.java, created by Fabio Strozzi on Mar 27, 2011
-package eu.fabiostrozzi.guicejunit;
+package eu.fabiostrozzi.guicejunitrunner;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 
 import com.google.inject.Inject;
 
-import eu.fabiostrozzi.guicejunit.GuiceJUnitRunner.GuiceModules;
+import eu.fabiostrozzi.guicejunitrunner.IService;
+import eu.fabiostrozzi.guicejunitrunner.GuiceJUnitRunner.GuiceModules;
 
 /**
  * Unit test for simple App.
